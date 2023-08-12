@@ -1,0 +1,293 @@
+@media print, (max-width: 767px) {
+
+    .first-section form .line .field {
+        width: 100%;
+    }
+    .first-section button {
+        width: 100%;        
+    }
+    .first-section_img {
+        display: none;
+    }
+    .service_items > * {
+        width: 100%;
+    }
+    .service_box:nth-child(2) .service_item:nth-child(9) {
+        width: 100%;
+    }
+    
+    .service_box:nth-child(2) .service_item:nth-child(10) {
+        width: 100%;
+    }
+    
+    .service_box:nth-child(3) .service_item:nth-child(5) {
+        width: 100%;
+    }
+    
+    .service_box:nth-child(3) .service_item:nth-child(6) {
+        width: 100%;
+    }
+    
+    .service_box:nth-child(4) .service_item:nth-child(5) {
+        width: 100%;
+    }
+    
+    .service_box:nth-child(4) .service_item:nth-child(6) {
+        width: 100%;
+    }
+    .about_sertificat .swiper-slide-active {
+        transform: scale(1.3);
+        z-index: 88;
+    }
+    .about_sertificat .swiper {
+        padding: 60px 0;
+    }
+    .about_sertificat .swiper-slide {
+        transition: all .4s;
+    }
+    .about_sertificat .swiper-slide img {
+        width: 100%;
+    }
+    .about_info:before {
+        display: none;
+    }
+    .about_info {
+        padding: 0;
+    }
+    .about_sertificat .swiper-pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about_sertificat .swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        background: #C6C6C6;
+    }    
+    .about_sertificat .swiper-pagination-bullet-active {
+        width: 10px;
+        height: 10px;
+        background: #FE7449;
+    }
+    .swiper-pagination-bullet + .swiper-pagination-bullet {
+        margin-left: 5px !important;
+    }
+    .about_sertificat .swiper-pagination-bullet:hover, 
+    .about_sertificat .swiper-pagination-bullet.active {
+        box-shadow: none;
+    }
+
+    .first-section_title, .last-section_title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .form_title {
+        font-size: 22px;
+        line-height: 31px;
+        margin-bottom: 20px;
+    }
+    form .line input {
+        padding: 0 20px 0 58px;
+        height: 60px;
+    }
+    form .line .field img {
+        left: 30px;
+    }
+    .first-section button,
+    .last-section button {
+        height: 60px;
+        font-size: 16px;
+    }
+    .service_title {
+        right: 50%;
+        transform: translateX(50%);
+        top: -10px;
+        font-size: 80px;
+        -webkit-text-stroke: 1px #E8E8E8;
+        -webkit-text-fill-color: transparent;
+    }
+    .service {
+        padding: 40px 0;
+    }
+    .service_box-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service_box-title {
+        text-align: center;
+    }
+    .service_box-text {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+    }
+    .service_box-top {
+        margin-bottom: 20px;
+    }
+    .callback form .line {
+        flex-direction: column;
+        align-items: center;
+    }
+    .callback button {
+        height: 65px;
+        font-size: 16px;
+        line-height: 65px;
+        margin-top: 10px;
+    }
+    form .line .field img {
+        width: 20px;
+        height: 20px;
+        left: 22px;
+    }
+    .callback_title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .callback_text {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+    .about_img-mob {
+        display: block;
+        margin: 0 auto 20px;
+        width: 320px;
+        height: 289px;
+    }
+    .about_img-mob img {
+        width: 100%;
+        height: 100%;
+    }
+    .about_img {
+        display: none;
+    }
+    .about_label {
+        justify-content: center;
+        margin-bottom: 6px;
+    }
+    .about_name {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .about_post {
+        margin-bottom: 20px;
+    }
+    .about ul li+li {
+        margin-top: 10px;
+    }
+    .about {
+        padding-top: 50px;
+    }
+    .map_wrap {
+        height: 300px;
+    }
+    .about ul {
+        margin-bottom: 10px;
+    }
+    .contacts {
+        padding-top: 30px;
+    }
+    footer {
+        padding: 20px 0 34px;
+    }
+    footer .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_pravo {
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer_left {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .footer_politic {
+        font-size: 14px;
+        line-height: 18px;  
+    }
+
+    .modal_callback {
+        padding: 30px 15px;
+    }
+    .modal_callback-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    #modal_callback2 .modal_callback-title {
+        margin-bottom: 20px;
+    }
+    .modal_callback-btn {
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+    }
+    .modal_callback .line .field {
+        margin-bottom: 0;
+    }
+    .modal_callback-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .modal_callback-text br {
+        display: none;
+    }
+
+    .service_box-icon {
+        margin-bottom: 13px;
+    }
+
+    .contacts_title {
+        font-size: 24px;
+        text-align: center;
+    }
+    .contacts_post {
+        font-size: 15px;
+        margin-bottom: 47px;
+    }
+    .contacts_soc {
+        margin-left: 30px;
+    }
+    .text_block-top {
+        flex-direction: column;
+    }
+    .text_block-top_icon {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .block {
+        margin-top: 45px;
+    }
+    .advantages {
+        padding: 45px 0 45px;
+    }
+    .preparation {
+        padding: 45px 0;
+    }
+    .service-page ol li:first-child {
+        margin-right: 52px;
+    }
+    .service-page ol li {
+        font-size: 22px;
+    }
+    .service-page ol {
+        flex-direction: column;
+    }
+    .reviews_title {
+        display: block;
+    }
+    .tabs_container .tabs {
+        display: none;
+    }
+
+
+
+
+
+
+}

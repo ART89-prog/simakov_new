@@ -1,0 +1,109 @@
+@media (max-width: 479px) {
+
+    .header_logo {
+        width: 27px;
+        height: 35px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .header_logo img {
+        width: 100%;
+        height: 100%;
+        margin-right: 15px;
+    }
+    form .line .field {
+        width: 100%;
+    }
+    .first-section button, 
+    .last-section button {
+        width: 100%;
+    }
+    .contacts_block {
+        padding: 20px 60px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .contacts_block-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .callback button {
+        width: 100%;
+    }
+    /* .first-section form {
+        position: relative;
+    }
+    .first-section form::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 255px;
+        background: url(../images/first-section-bg-mob.png);
+        background-repeat: no-repeat;
+        left: 0;
+        top: calc(-100% + 60px);
+        z-index: 2;
+        display: block;
+    } */
+    header .btn-mob {
+        margin-left: auto;
+    }
+    .first-section_title {
+        margin-bottom: 65px;
+    }
+    .first-section_info {
+        margin-top: 65px;
+    }
+    .callback {
+        background: url(../images/callback-bg-mob.png), #12AD7A;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        padding: 110px 0 100px;
+    }
+    .last-section form::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 255px;
+        background: url(../images/first-section-bg-mob.png);
+        background-repeat: no-repeat;
+        left: 0;
+        top: calc(-100% + 60px);
+        z-index: 2;
+        display: block;
+    }
+    .last-section_title {
+        margin-bottom: 65px;
+    }
+    .last-section_info {
+        margin-top: 95px;
+    }
+    .btn-wrap {
+        display: block;
+    }
+    footer {
+       padding: 30px 0 110px;
+    }
+
+    .contacts_block{
+        top: -100px;
+    }
+
+    .about{
+        margin-bottom: 100px;
+    }
+    header .menu.show {
+        top: 75px;
+    }
+    .contacts_info {
+        margin-bottom: 140px;
+    }
+    header {
+        padding: 24px 0 24px;
+    }
+
+
+
+
+}
