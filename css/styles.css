@@ -1632,6 +1632,10 @@ footer .cont {
     display: none;
 }
 
+
+.reviews_check {
+    display: none;
+}
 form input[type=checkbox] {
     display: none;
 }
@@ -1649,7 +1653,7 @@ form input[type=checkbox] {
 }
 form input[type=checkbox]+label {
     color: #0D0F13;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 125%; 
     position: relative;

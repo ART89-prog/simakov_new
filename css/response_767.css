@@ -284,7 +284,9 @@
     .tabs_container .tabs {
         display: none;
     }
-
+    .reviews_check {
+        display: flex;
+    } 
 
 
 
