@@ -102,7 +102,12 @@
     header {
         padding: 24px 0 24px;
     }
-
+    .contacts_info {
+        display: block;
+    }
+    .contacts_soc {
+        margin-left: 0;
+    }
 
 
 
